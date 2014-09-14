@@ -1,0 +1,44 @@
+{
+    "com.amazon.sample.iap.subscription.gold_month.gold_month": {
+        "description": "Gold Month",
+        "title": "Gold Month",
+        "itemType": "SUBSCRIPTION",
+        "price": 5.0,
+        "subscriptionParent": "com.amazon.sample.iap.subscription.gold_month"
+    },
+    "com.amazon.sample.iap.subscription.gold_year.gold_year": {
+        "description": "Gold Year",
+        "title": "Gold Year",
+        "itemType": "SUBSCRIPTION",
+        "price": 29.0,
+        "subscriptionParent": "com.amazon.sample.iap.subscription.gold_year"
+    },
+    "com.amazon.sample.iap.subscription.platinum_year.platinum_year": {
+        "description": "Platinum Year",
+        "title": "Platinum Year",
+        "itemType": "SUBSCRIPTION",
+        "price": 49.0,
+        "subscriptionParent": "com.amazon.sample.iap.subscription.platinum_year"
+    },
+    "com.amazon.sample.iap.subscription.platinum_month.platinum_month": {
+        "description": "Platinum Month",
+        "title": "Platinum Month",
+        "itemType": "SUBSCRIPTION",
+        "price": 7.0,
+        "subscriptionParent": "com.amazon.sample.iap.subscription.platinum_month"
+    },
+    "com.amazon.sample.iap.subscription.diamond_year.diamond_year": {
+        "description": "Diamond Year",
+        "title": "Diamond Year",
+        "itemType": "SUBSCRIPTION",
+        "price": 99.0,
+        "subscriptionParent": "com.amazon.sample.iap.subscription.diamond_year"
+    },
+    "com.amazon.sample.iap.subscription.diamond_month.diamond_month": {
+        "description": "Diamond Month",
+        "title": "Diamond Month",
+        "itemType": "SUBSCRIPTION",
+        "price": 14.0,
+        "subscriptionParent": "com.amazon.sample.iap.subscription.diamond_month"
+    }
+}

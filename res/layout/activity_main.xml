@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context=".MainActivity"
+	>
+
+	<!--Gold Year-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+
+		<Button
+			android:id="@+id/goldYearBtn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Year Gold"
+			android:gravity="center"
+			/>
+
+		<TextView
+			android:id="@+id/goldYearTxt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/subscription_disabled"
+			android:gravity="center"
+			android:padding="12dp"
+			/>
+
+	</LinearLayout>
+
+	<!--Gold Month-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+
+		<Button
+			android:id="@+id/goldMonthBtn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Month Gold"
+			android:gravity="center"
+			/>
+
+		<TextView
+			android:id="@+id/goldMonthTxt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/subscription_disabled"
+			android:gravity="center"
+			android:padding="12dp"
+			/>
+
+	</LinearLayout>
+
+
+
+	<!--Platinum Year-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+
+		<Button
+			android:id="@+id/platinumYearBtn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Year Platinum"
+			android:gravity="center"
+			/>
+
+		<TextView
+			android:id="@+id/platinumYearTxt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/subscription_disabled"
+			android:gravity="center"
+			android:padding="12dp"
+			/>
+
+	</LinearLayout>
+
+	<!--Platinum Month-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+
+		<Button
+			android:id="@+id/platinumMonthBtn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Month Platinum"
+			android:gravity="center"
+			/>
+
+		<TextView
+			android:id="@+id/platinumMonthTxt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/subscription_disabled"
+			android:gravity="center"
+			android:padding="12dp"
+			/>
+
+	</LinearLayout>
+
+	<!--Diamond year-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+
+		<Button
+			android:id="@+id/diamondYearBtn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Year Diamond"
+			android:gravity="center"
+			/>
+
+		<TextView
+			android:id="@+id/diamondYearTxt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/subscription_disabled"
+			android:gravity="center"
+			android:padding="12dp"
+			/>
+
+	</LinearLayout>
+
+	<!--Diamond month-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+
+		<Button
+			android:id="@+id/diamondMonthBtn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Month Diamond"
+			android:gravity="center"
+			/>
+
+		<TextView
+			android:id="@+id/diamondMonthTxt"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/subscription_disabled"
+			android:gravity="center"
+			android:padding="12dp"
+			/>
+
+	</LinearLayout>
+
+</LinearLayout>
